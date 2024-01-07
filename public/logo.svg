@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.51 28.1">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+
+      .cls-3 {
+        fill: #11abc6;
+        letter-spacing: 0em;
+        stroke: #11abc6;
+      }
+
+      .cls-4 {
+        font-family: ArchivoRoman-Medium, Archivo;
+        font-size: 22.42px;
+        font-variation-settings: 'wght' 500, 'wdth' 100;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(.03 18.9) rotate(.17)"><tspan class="cls-1" x="0" y="0">{</tspan><tspan class="cls-3" x="8.34" y="0">B</tspan><tspan class="cls-2" x="24.08" y="0">}</tspan></text>
+</svg>
