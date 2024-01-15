@@ -8,6 +8,7 @@ background-color: var(--primary-color);
 position: fixed;
 top:0;
 left:0;
+z-index: 999;
 border-bottom: 1px solid var(--second-color);
 `
 

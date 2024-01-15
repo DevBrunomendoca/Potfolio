@@ -7,7 +7,7 @@ background-color: #14abc6;
 border: none;
 border-radius: 5px;
 cursor: pointer;
-margin-top: 4rem;
+//margin-top: 4rem;
 
 a {
   font-size: 2rem;

@@ -1,22 +1,37 @@
 import styled from "styled-components";
 
 
-export const ContainerHome = styled.div`
+export const ContainerHome = styled.section`
 
   width: 100%;
-margin: 0 auto;
-max-width: 1200px;
-padding: 2rem;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
 
   span {
-    color: var(--second-color)
+  color: var(--second-color)
   }
   p{
   max-width: 720px;
-  line-height: 160%;
 }
 `
 
+export const ContainerContent = styled.div`
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 5.5rem;
+margin: 0 auto;
+max-width: 1200px;
+`
+export const ConteineImg = styled.div`
+height: 100%;
+img {
+  height: 900px;
+  width: 100%;
+}
+`
 export const Title = styled.h1`
 
 color: var(--third-color);

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="9.72" width="490.28" height="510"/>
+  <image width="500" height="500" transform="translate(0 12)" xlink:href="../../../Downloads/perfil-sem-fundo.png"/>
+</svg>
