@@ -5,6 +5,9 @@ export const LinksNav = styled.ul`
   display: flex;
   align-items: center;
   gap: 2.5rem;
+  @media (max-width: 750px) {
+    display: none;
+  }
 `
 
 export const LinkStyle = styled.li`

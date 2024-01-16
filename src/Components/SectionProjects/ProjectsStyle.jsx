@@ -13,18 +13,19 @@ align-items: center;
 `
 export const ContentProjects = styled.div`
 max-width: 1200px;
-margin: 0  2rem(auto);
+margin: 0 auto;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 place-items: center;
-align-items: center;
 gap: 3rem;
 margin: 0 auto;
 padding: 5rem 0;
+@media (max-width: 700px) {
+  grid-template-columns: 1fr;
+}
 `
 export const CardProjectsStyle = styled.div`
 height: 100%;
-width: 450px;
 background-color: transparent;
 border: 1px solid var(--second-color);
 border-radius: 10px;

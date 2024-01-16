@@ -15,6 +15,9 @@ export const ContainerHome = styled.section`
   p{
   max-width: 720px;
 }
+@media (max-width: 950px) {
+  padding: 20rem 2rem 10rem;
+}
 `
 
 export const ContainerContent = styled.div`
@@ -24,12 +27,22 @@ align-items: start;
 gap: 5.5rem;
 margin: 0 auto;
 max-width: 1200px;
+@media (max-width: 950px) {
+  text-align: center;
+  align-items: center;
+}
+@media (max-width: 350px) {
+  
+}
 `
 export const ConteineImg = styled.div`
 height: 100%;
 img {
   height: 900px;
   width: 100%;
+}
+@media (max-width: 950px) {
+  display: none;
 }
 `
 export const Title = styled.h1`
@@ -38,4 +51,7 @@ color: var(--third-color);
   font-size: 5rem;
   font-weight: 700;
   max-width:  700px;
+  @media (max-width: 350px) {
+    font-size: 4rem;
+  }
 `
