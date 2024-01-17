@@ -16,7 +16,10 @@ export const ContainerHome = styled.section`
   max-width: 720px;
 }
 @media (max-width: 950px) {
-  padding: 20rem 2rem 10rem;
+  padding: 15rem 2rem 10rem;
+}
+@media (max-width: 550px) {
+  padding: 10rem 2rem 10rem;
 }
 `
 
