@@ -15,6 +15,8 @@ export const ContainerContact = styled.div`
   padding: 1rem 2rem;
   gap: 4rem;
   width: 100%;
+  max-width: 1200px;
+    margin: 0 auto;
   @media (max-width: 700px) {
     grid-template-columns: repeat(2, 1fr);
   }

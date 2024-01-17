@@ -1,8 +1,8 @@
 import { ButtonStyle } from './ButtonStyle'
 
-export default function Button({textButton}) {
+export default function Button({id ,textButton}) {
   return(
-    <ButtonStyle>
+    <ButtonStyle id={id}>
       <a href="#">{textButton}</a>
     </ButtonStyle>
   )
