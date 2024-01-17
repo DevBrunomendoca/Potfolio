@@ -24,4 +24,15 @@ align-items: center;
 justify-content: space-between;
 height: 100px;
 padding: 0 2rem;
+@media (max-width: 750px ) {
+  img {
+  width: 240px !important;
+}
+}
+@media (max-width: 400px ) {
+  img {
+  width: 200px !important;
+}
+}
+
 `

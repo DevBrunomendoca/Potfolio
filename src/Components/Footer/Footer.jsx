@@ -3,10 +3,43 @@ import Paragraph from '../../Paragraph'
 import CarrdContat from './CardContat'
 import { ContainerFooter, ContainerContact, Copyright } from './FooterStyle'
 
+import { useRef, useLayoutEffect } from 'react'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
 export default function Footer() {
+
+  const tl = useRef(null)
+  const el = useRef(null)
+
+  useLayoutEffect(() => {
+
+ gsap.registerPlugin(ScrollTrigger)
+  gsap.context(() => {
+    tl.current = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".container-footer",
+        start: "top bottom"
+      }
+    })
+
+    .fromTo( ".content-contact", {
+      opacity: 0,
+      x: -140
+    },{
+      opacity:1 ,
+      x: 0,
+      duration: 1.5
+    })
+
+  })
+  return () => {
+    gsap.killTweensOf(".container-footer")
+  }
+},[])
   return (
-    <ContainerFooter>
-      <ContainerContact>
+    <ContainerFooter className='container-footer'>
+      <ContainerContact className='content-contact'>
         <CarrdContat
           img='/icon-email.png'
           title='E-mail'

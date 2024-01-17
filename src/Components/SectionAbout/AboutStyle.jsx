@@ -17,13 +17,28 @@ padding: 1rem;
 }
 `
 export const ContainerImg = styled.div`
+/* background-image: url('/perfil-1.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+height: 500px; */
 width: 50%;
-@media (max-width: 950px) {
-  width: 100%;
-}
-img { 
+img {
   width: 100%;
   border-radius: 10px;
+}
+@media (max-width: 950px) {
+  width: 100%;
+  img {
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+@media (max-width: 400px) {
+  img {
+    height: 400px;
+  }
 }
 `
 export const ContainerContent = styled.div`
@@ -51,7 +66,7 @@ ul {
 }
 
 
-ul a{ 
+ul a{
   background-color: var(--primary-color);
   padding: 1.5rem;
   border-radius: 10px;

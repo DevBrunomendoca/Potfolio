@@ -73,6 +73,13 @@ div>p {
   font-size: 1.8rem;
   opacity: 1;
   text-align: center;
+  font-weight: 600;
 }
+@media (max-width: 750px) {
+  div>img {
+    width: 220px !important;
+  }
+}
+
 
 `

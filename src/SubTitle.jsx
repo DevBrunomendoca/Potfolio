@@ -1,7 +1,7 @@
 import { Subtitle } from './SubTitleStyle'
 
-export default function SubTitle({textSubtitle}) {
+export default function SubTitle({textSubtitle , className}) {
   return(
-    <Subtitle>{textSubtitle} <span>.</span> </Subtitle>
+    <Subtitle className={className}>{textSubtitle} <span>.</span> </Subtitle>
   )
 }

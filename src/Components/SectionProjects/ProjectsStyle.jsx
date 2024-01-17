@@ -51,27 +51,30 @@ div {
   
 }
 div>a {
-  padding: 1.5rem 3rem;
-  border-radius: 30px;
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-div>a>button {
   
+  border-radius: 30px;
+  
+} 
+div>a>button {
+  font-weight: 600;
   color: #fff;
   background-color: transparent;
   border: none;
+
+  padding: 1.5rem 3rem;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  
 }
 div>a:not(:first-child) {
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   transition: all.5s;
 }
 div>a:not(:first-child):hover  {
   background-color: var(--second-color);
-  border: 1px solid var(--second-color);
+  border: 2px solid var(--second-color);
 }
 div>a:first-child {
   background: rgb(20,171,198);

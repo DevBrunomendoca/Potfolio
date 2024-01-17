@@ -2,7 +2,7 @@ import Paragraph from "../../Paragraph";
 import { Subtitle } from "../../SubTitleStyle";
 import { ContainerCardContact } from './FooterStyle'
 
-export default function CarrdContat({ img, title, subtitle }) {
+export default function CarrdContat({img, title, subtitle }) {
   return (
     <ContainerCardContact>
       <a href="#">
