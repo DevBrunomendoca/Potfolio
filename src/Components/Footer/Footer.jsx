@@ -19,8 +19,7 @@ export default function Footer() {
     tl.current = gsap.timeline({
       scrollTrigger: {
         trigger: ".container-footer",
-        start: "-600px",
-        markers: true
+        start: "-600px"
       }
     })
 
