@@ -24,7 +24,7 @@ export default function Projects() {
     })
     .fromTo( ".tltle-projects", {
       opacity: 0,
-      y: -100
+      y: -60
     },{
       opacity:1 ,
       y: 0,

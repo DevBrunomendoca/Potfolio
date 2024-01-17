@@ -23,7 +23,7 @@ export default function Skills() {
 
     .fromTo( ".title-skills", {
       opacity: 0,
-      y: -140,
+      y: -70,
       
     },{
       opacity:1 ,

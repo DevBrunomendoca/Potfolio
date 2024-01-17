@@ -18,7 +18,7 @@ export default function About() {
     tl.current = gsap.timeline({
       scrollTrigger: {
         trigger: ".content-about",
-        start: "top bottom"
+        start: "-600px"
       }
     })
     .fromTo( "#content-img", {
