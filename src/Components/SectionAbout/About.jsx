@@ -23,7 +23,7 @@ export default function About() {
     })
     .fromTo( "#content-img", {
       opacity: 0,
-      y: -140
+      y: -100
     },{
       opacity:1 ,
       y: 0,

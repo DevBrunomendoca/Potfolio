@@ -37,7 +37,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-2", {
@@ -46,7 +46,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-3", {
@@ -55,7 +55,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-4", {
@@ -64,7 +64,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-5", {
@@ -73,7 +73,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-6", {
@@ -82,7 +82,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-7", {
@@ -91,7 +91,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-8", {
@@ -100,7 +100,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-9", {
@@ -109,7 +109,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-10", {
@@ -118,7 +118,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-11", {
@@ -127,7 +127,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
     .fromTo( "#card-12", {
@@ -136,7 +136,7 @@ export default function Skills() {
     },{
       opacity:1 ,
       y: 0,
-      duration: 1,
+      duration: .8,
       delay: 0
     })
 
