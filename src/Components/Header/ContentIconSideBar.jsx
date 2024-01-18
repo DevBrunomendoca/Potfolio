@@ -28,7 +28,7 @@ ${({close}) => close && css`
     left: 15px;
   }
 .line-one {
-  transform: rotate(-44deg) translate(-9px, -8px);
+  transform: rotate(-45deg) translate(-9px, -9px);
 }
 .line-two {
   opacity: 0;
