@@ -18,7 +18,7 @@ export default function Projects() {
   gsap.context(() => {
     tl.current = gsap.timeline({
       scrollTrigger: {
-        trigger: ".content-projects",
+        trigger: "#content-projects",
         start: "top bottom"
       }
     })
@@ -42,12 +42,12 @@ export default function Projects() {
 
   })
   return () => {
-    gsap.killTweensOf(".content-projects")
+    gsap.killTweensOf("#content-projects")
   }
 },[])
 
   return(
-    <ContainerProjects className='content-projects' ref={el} >
+    <ContainerProjects id='content-projects' ref={el} >
       <SubTitle className="tltle-projects" textSubtitle="Projetos" />
       <ContentProjects>
         <CardProjects className="cards-projects" />

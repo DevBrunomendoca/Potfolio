@@ -78,7 +78,7 @@ div>p {
   font-weight: 600;
 }
 @media (max-width: 750px) {
-  div>img {
+  div>a>img {
     width: 220px !important;
   }
 }

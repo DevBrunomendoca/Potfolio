@@ -17,7 +17,7 @@ export default function About() {
   gsap.context(() => {
     tl.current = gsap.timeline({
       scrollTrigger: {
-        trigger: ".content-about",
+        trigger: "#content-about",
         start: "-600px"
       }
     })
@@ -40,13 +40,13 @@ export default function About() {
 
   })
   return () => {
-    gsap.killTweensOf(".content-about")
+    gsap.killTweensOf("#content-about")
   }
 },[])
 
 
   return(
-    <ContainerAbout className='content-about' ref={el}>
+    <ContainerAbout id='content-about' ref={el}>
     <ContainerImg id='content-img'  >
       <img src="/perfil-1.png" alt="foto de perfil" />
     </ContainerImg>
@@ -56,10 +56,10 @@ export default function About() {
       
       <Navigation>
         <ul>
-          <a href="#"><img src="/icon-linkedin.png" alt="icone linkedin"/></a>
-          <a href="#"><img src="/icon-github.png" alt="icone github"/></a>
-          <a href="#"><img src="/icon-instagram.png" alt="icone instagram"/></a>
-          <a href="#"><img src="/icon-whatsapp.png" alt="icone whatsapp"/></a>
+          <a target='_blank' href="https://www.linkedin.com/in/bruno-mendon%C3%A7a-4b0942234/"><img src="/icon-linkedin.png" alt="icone linkedin"/></a>
+          <a target='_blank' href="https://github.com/DevBrunomendoca"><img src="/icon-github.png" alt="icone github"/></a>
+          <a target='_blank' href="https://wa.me/5562992544864?text=Ol%C3%A1%2C+estou+entrando+em+contato+atrav%C3%A9s+do+seu+portf%C3%B3lio."><img src="/icon-whatsapp.png" alt="icone whatsapp"/></a>
+          <a target='_blank' href="https://www.instagram.com/brunmendonca_/"><img src="/icon-instagram.png" alt="icone instagram"/></a>
           <a href="#"><img src="/icon-email.png" alt="icone email"/></a>
         </ul>
       </Navigation>

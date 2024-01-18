@@ -16,7 +16,7 @@ export default function Skills() {
   gsap.context(() => {
     tl.current = gsap.timeline({
       scrollTrigger: {
-        trigger: ".content-skills",
+        trigger: "#content-skills",
         start: "top bottom"
       }
     })
@@ -142,12 +142,12 @@ export default function Skills() {
 
   })
   return () => {
-    gsap.killTweensOf(".content-skills")
+    gsap.killTweensOf("#content-skills")
   }
 },[])
 
   return(
-    <ContainerSkills className='content-skills' ref={el}>
+    <ContainerSkills id='content-skills' ref={el}>
       <SubTitle textSubtitle='Habilidades' className="title-skills"/>
       <ContentSkills>
         <CardsSkills id='card-1'><img src="/icone-html-5.png" alt="" /></CardsSkills>

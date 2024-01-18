@@ -54,6 +54,10 @@ color: var(--third-color);
   font-size: 5rem;
   font-weight: 700;
   max-width:  700px;
+  @media (max-width: 750px) {
+    font-weight: 500;
+    font-size: 4.3rem;
+  }
   @media (max-width: 350px) {
     font-size: 4rem;
   }

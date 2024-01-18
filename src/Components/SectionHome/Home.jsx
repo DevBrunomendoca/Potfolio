@@ -20,7 +20,7 @@ export default function Home() {
     gsap.context(() => {
       tl.current = gsap.timeline({
         scrollTrigger: {
-          trigger: ".content-home",
+          trigger: "#content-home",
           start: "top bottom"
         }
       })
@@ -44,13 +44,13 @@ export default function Home() {
 
     })
     return () => {
-      gsap.killTweensOf(".content-home")
+      gsap.killTweensOf("#content-home")
     }
   }, [])
 
   return (
     <ContainerHome>
-      <ContainerContent className="content-home" ref={el}>
+      <ContainerContent id="content-home" ref={el}>
         <Title id="title">
           Olá, meu nome é <span>Bruno Mendonça</span>, sou Desenvolvedor Front-end<span></span> .
         </Title>
