@@ -48,7 +48,7 @@ export default function About() {
   return(
     <ContainerAbout id='content-about' ref={el}>
     <ContainerImg id='content-img'  >
-      <img src="/perfil-1.png" alt="foto de perfil" />
+      <img src="/perfil-3.png" alt="foto de perfil" />
     </ContainerImg>
     <ContainerContent id='content-container-about'>
       <SubTitle textSubtitle="Mais sobre"/>

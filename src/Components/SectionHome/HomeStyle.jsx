@@ -19,7 +19,7 @@ export const ContainerHome = styled.section`
   padding: 15rem 2rem 10rem;
 }
 @media (max-width: 550px) {
-  padding: 10rem 2rem 10rem;
+  padding: 13rem 2rem 10rem;
 }
 `
 
