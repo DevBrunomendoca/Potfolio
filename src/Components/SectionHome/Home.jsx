@@ -65,7 +65,7 @@ export default function Home() {
             />
           </span>
         </ParagraphStyle>
-        <Button id='btn' textButton="Download CV" />
+        <Button id='btn' textButton="Download CV"/>
       </ContainerContent>
       <ConteineImg>
         <img src="/banner-home-2.svg" alt="" />

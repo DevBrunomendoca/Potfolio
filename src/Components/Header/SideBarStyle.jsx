@@ -15,7 +15,6 @@ ${({sideBar}) => sideBar && css`
   width: 100%;
   animation: showSideBar .5s;
   display: none;
-  z-index: -1 !important;
   @media (max-width: 750px) {
     display: flex;
   flex-direction: column;
